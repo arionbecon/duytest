@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.header{
+    background: #333;
+}
+.header1{
+    border-bottom: 1px solid white;
+}
+.container > a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.container > a:hover{
+    color: yellow;
+}
+.menu {
+    position: absolute;
+    right: 80px;
+    top: 0px;
+    list-style-type: none;
+}
+.menu li{
+    display: inline-table;
+    padding: 12px;
+    border-top: 2px solid #333;
+}
+.menu > li:hover{
+    background-color: black;
+    border-top: 2px solid yellow;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu li a:hover{
+    color:  yellow ;
+}
+.list{
+    position: relative;
+    display: inline-block;
+}
+.menu-list{
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    background-color: #333;
+    display: none;
+    z-index: 99;
+}
+.menu-list li{
+    border-top: 2px solid #333;
+}
+.menu-list li a{
+    display: block;
+    text-decoration: none;
+    width: 150px;
+}
+.menu-list li:hover{
+    background: black;
+    color: yellow;
+    border-top: 2px solid yellow;
+}
+.list:hover .menu-list{
+    display: block;
+}
+.warper > a:hover{
+    color: yellow;
+}
+.menu2 {
+    list-style-type: none;
+    padding-left: 75px;
+    padding-bottom: 16px;
+    margin-bottom: -16px;
+}
+.menu2 li{
+    border-top: 2px solid #333;
+}
+.menu2 > li{
+    display: inline-table;
+    padding: 15px 8px;
+}
+.menu2 > li:hover{
+    border-top: 2px solid yellow;
+    background-color: black;
+}
+.list2 ul{
+    display: none;
+}
+.menu2 li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu2 li a:hover{
+    color:  yellow ;
+}
+.list2{
+    position: relative;
+    display: inline-block;
+}
+.menu-list2{
+    position: absolute;
+    left: -1px;
+    top: 50px;
+    background-color: #333;
+    display: none;
+    list-style-type: none ;
+    z-index: 99;
+}
+.menu-list2 li{
+    border-top: 2px solid #333;
+}
+.menu-list2 li a{
+    display: block;
+    text-decoration: none;
+    width: 133px;
+    padding: 8px 8px;
+}
+.menu-list2 li:hover{
+    background: black;
+    color: yellow;
+    border-top: 2px solid yellow;
+}
+.list2:hover .menu-list2{
+    display: block;
+}
+.background-img{
+    background-image: url("../src/Framework/background.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+.main-all{
+    padding: 50px 50px;
+}
+.sample{
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-color: white;
+}
+.sample2{
+    padding: 35px 35px 35px 50px;
+}
+.sample2 img{
+    width: 665px;
+    height: 400px;
+    padding-bottom: 30px;
+}
+.sample2 p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.sample2 a{
+    color: rgb(214, 149, 51);
+    text-decoration: none;
+}
+.sample2 a:hover{
+    color: blue;
+}
+.abc{
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.main-left1{
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+}
+.main-left1 h6{
+    padding-top: 15px;
+}
+.main-left1 p{
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.main-left2{
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: white;
+}
+.left2{
+    overflow: hidden;
+    padding: 30px 30px ;
+}
+.avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.left2 span{
+    padding-left: 20px;
+}
+.left2 span a{
+    text-decoration: none;
+    color: rgb(235, 160, 47);
+}
+.left2 a:hover{
+    color: blue;
+}
+.comments{
+    border-radius: 8px; 
+    margin: 30px 0;
+    background-color: white;
+}
+.comments-all{
+    padding: 20px 30px;
+}
+.comments-all h5{
+    padding: 15px 0;
+}
+.aqz{
+    overflow: hidden;
+}
+.comments1 {
+    padding-left:40px;
+    border-left: 1px solid #333;
+}
+.comments1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+.comments1 span{
+    margin: 8px 0;
+    padding-left: 15px ;
+}
+.comments1 a{
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: rgb(235, 160, 47);
+}
+.comments1 a:hover{
+    color: blue;
+}
+.comments2{
+    border-left: 1px solid #333;
+}
+.comments2 p{
+    padding-left: 40px;
+}
+.comments2 a{
+    display: block;
+    margin: 15px 0;
+    padding-left: 40px;
+    text-decoration: none;
+    color: rgb(235, 160, 47);
+}
+.comments2 a:hover{
+    color: blue;
+}
+.info{
+    background-color: white;
+    border-radius: 8px;
+}
+.contact{
+    padding: 30px 40px;
+}
+.contact form{
+    margin: 25px 0;
+}
+.contact form p{
+    margin: 0;
+}
+.contact a{
+    color: white;
+    background-color: #333;
+    display: block;
+    width: 160px;
+    height: 50px;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+.contact a:hover{
+    background-color: blue;
+    color: white;
+}
+.email{
+    border-radius: 8px;
+    background-color: #333;
+}
+.newsletter{
+    padding: 40px 30px;
+    color: white;
+}
+.newsletter form{
+    margin: 15px 0;
+}
+.newsletter a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 12px ;
+    font-size: 16px;
+}
+.newsletter a:hover{
+    background-color: blue;
+    color: white;
+}
+.icon{
+    background-color: white;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+.icon-all{
+    padding: 40px 30px;
+}
+.icon-all p span{
+    margin: 0 8px;
+}
+.icon-all a:hover{
+    color: blue;
+}
+.icon1{
+    text-align: center;
+}
+.icon1 a{
+    padding-top: 5px;
+    width: 35px;
+    height: 29px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: rgb(235, 231, 231);
+}
+.icon-all a{
+    text-decoration: none;
+}
+.icon2{
+    text-align: center;
+}
+.icon2 a{
+    padding-top: 5px;
+    width: 35px;
+    height: 29px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: rgb(235, 231, 231);
+}
+.amongus{
+    background-color: white;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+.about{
+    padding: 35px 25px;
+}
+.amongus-if{
+    overflow: hidden;
+}
+.amongus-if img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    float: left;
+}
+.amongus-if span{
+    padding: 10px 0 10px 15px;
+}
+.amongus-if a{
+    color: rgb(238, 197, 122);
+    text-decoration: none;
+}
+.amongus-if a:hover{
+    color: blue;
+}
+.website{
+    background-color: #333;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+.website form{
+    padding: 55px 45px;
+}
+.bottom1{
+    background-color: white;
+}
+.bottom2 p{
+    margin: -1px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(197, 193, 193);
+}
+.footericon a{
+    text-align: center;
+    display: block;
+    background-color: rgb(214, 214, 214);
+}
+.footericon i{
+    padding: 8px;
+    color: rgb(105, 104, 104);
+}
+.footericon i:hover{
+    color: black;
+}
+.endweb1 .row{
+    padding :30px 35px;
+}
+.bottom1 p{
+    padding: 0 30px;
+}
+.footericon span{
+    margin: 1px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.dyy a{
+    text-decoration: none;
+    color: wheat;
+}
+.dyy a:hover{
+    color: blue;
+}

@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.header-all{
+    background-color: rgba(248, 248, 248, 0.9);
+    position: fixed;
+    z-index: 99; 
+    padding: 10px 60px 10px 40px;
+}
+.menu-top li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.menu-top li a{
+    text-decoration: none;
+    color: green;
+}
+.menu-top li a:hover{
+    color: rgb(7, 39, 7);
+}
+.menu-top{
+    padding-top: 26px;
+    text-align: center;
+}
+.menu-top li a{
+    font-size: 16px;
+}
+.icon i{
+    padding: 0 6px;
+}
+.order-online{
+    margin-top: 10px;
+    display: block;
+    padding: 15px 20px;
+    width: 200px;
+    height: 52px;
+    text-align: center;
+    color: white;
+    background-position:center center;
+    background-size: cover;
+    background-image: url("../src/AlessiBakery/order.png");
+}
+.order-online:hover{
+    text-decoration: none;
+}
+.banner{
+    background-position:center center;
+    background-size: cover;
+    background-image: url("../src/AlessiBakery/banner.jpg");
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.banner-img{
+    margin-top: 150px;
+    margin-bottom: -450px;
+    width: 614px;
+    height: 457px;
+}
+.holiday{
+    margin: 550px 20px -16px 20px;
+    text-align: center;
+}
+.holiday img{
+    width: 100%;
+}
+.holiday:hover{
+    transform: scale(0.9);
+}
+.holiday a{
+    display: block;
+    background-color: rgb(29, 139, 75);
+    color: white;
+    text-decoration: none;
+}
+.holiday p{
+    padding-bottom: 20px;
+}
+.holiday h5{
+    padding-top: 20px;
+}
+.bakeriesmenu-all{
+    text-align: center;
+    padding: 30px 30px 0 30px;
+}
+.baker{
+    padding: 30px 15px 0px 15px;
+}
+.baker h4{
+    font-family: 'Montez', cursive;
+}
+.baker p{
+    font-family: 'Montez', cursive;
+}
+.baker img{
+    height: 190px;
+    width: 250px;
+    cursor: pointer;
+}
+.baker img:hover{
+    filter: grayscale(100%)
+}
+.baker h4{
+    padding-top: 18px;
+}
+.baker h4:hover{
+    color: green;
+}
+.learnmore{
+    background-image: url("../src/AlessiBakery/go.jpg");
+    width: 100%;
+    background-size: cover;
+}
+.learnmore{
+    margin-top: 30px;
+}
+.learnmore-all{
+    padding: 40px 30px 40px 100px;
+}
+.img-learn img{
+    width: 350px;
+    height: 480px;
+}
+.if-learn{
+    text-align: center;
+    color: white;
+}
+.if-learn h1{
+    padding-top: 150px;
+    font-family: 'Montez', cursive;
+}
+.if-learn a{
+    border-style:double;
+    border-width:4px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px; 
+    background-color: green;
+}
+.if-learn a:hover{
+    background-color: rgb(4, 68, 4);
+}
+.place-all{
+    text-align: center;
+    padding: 50px 90px;
+}
+.place-all img{
+    width: 300;
+    height: 200px;
+}
+.place-all ul{
+    padding-top: 15px;
+}
+.place-all ul li{
+    display: inline;
+}
+.place-all a{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-style:double;
+    border-width:4px;
+}
+.place-all a:hover{
+    background-color: rgb(4, 68, 4);
+}
+.background-fresh{
+    height: 600px;
+    background-image: url("../src/AlessiBakery/7.jpg");
+    background-size: cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+.fresh{
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+}
+.achievements{
+    text-align: center;
+    margin: 35px
+}
+.achievements-all{
+    padding: 5px;
+    text-align: center;
+}
+.achievements-all i{
+    font-size: 40px;
+}
+.achievements-all img{
+    width: 400px;
+    height: 220px;
+}
+.history{
+    height: 400px;
+    background-image: url("../src/AlessiBakery/go.jpg");
+    background-size: cover;
+}
+.history-all{
+    padding: 65px 80px;
+    color: white;
+}
+.ourhistory h2{
+    padding-top: 12px;
+}
+.ourhistory p{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.ourhistory a{
+    border-style:double;
+    border-width:4px;
+    margin-top: 32px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 9px;
+}
+.ourhistory a:hover{
+    background-color: rgb(6, 54, 6);
+}
+.ourcreations-all{
+    padding: 35px 0;
+    position: relative;
+}
+.ourcreations-all h1{
+    color: white;
+    font-family: 'Montez', cursive;
+    padding-top: 25px;
+    position: absolute;
+    top: 315px;
+    left: 425px;
+    background-image: url("../src/AlessiBakery/order2.png");
+    background-repeat: no-repeat;
+    background-size: 405px;
+    text-align: center;
+
+}
+.aq{
+    width: 421px;
+    height: 120px;
+}
+.aq:hover{
+    color: rgb(81, 205, 236);
+}
+.ourcreations1{
+    overflow: hidden;
+}
+.ourcreations2
+{
+    overflow: hidden;
+}
+.abc img{
+    width: 423px;
+    height: 337px;
+}
+.abc:hover{
+    transform: scale(1.1);
+    filter: brightness(50%);
+}
+.abc{
+    position: relative;
+}
+.az{
+    position: absolute;
+    padding: 8px 25px;
+    border-style: double;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 99;
+    display: none;
+    text-decoration: none;
+    color: white;
+}
+.az:hover{
+    text-decoration: none;
+    color: green;
+    background-color: white;
+}
+.abc:hover .az{
+    display: block;
+}
+.ourcreations1 li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.ourcreations2{
+    margin-top: -27px;
+}
+.ourcreations2 li{
+    display: inline-block;
+    margin-left: -5px;
+}   
+.sub-all{
+    padding: 35px 0px;
+    text-align: center;
+}
+.sub-all h3{
+    color: green;
+}
+.sub-all ul{
+    padding-top: 15px;
+}
+.sub-all ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.sub-all i{
+    background-color: green;
+    border-radius: 60%;
+    padding: 15px;
+    font-size: 19px;
+    color: white;
+}
+.sub-all i:hover{
+    background-color: rgb(28, 92, 28);
+}
+.sub-all a{
+    border-style:double;
+    border-width:4px;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+.sub-all a:hover{
+    background-color: rgb(8, 87, 8);
+}
+.footer-all1{
+    padding: 35px 30px 0 30px;
+    background-color:#0a8446;
+}
+.footer1 img{
+    width: 170px;
+    height: 350px;
+    padding-left: 20px;
+}
+.footer2{
+    color: white;
+    padding-top: 20px;
+}
+.footer2 p{
+    font-size: 14px;
+}
+.footer2 a{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+}
+.allusat{
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid white;
+}
+.allusat:hover{
+    background-color: white ;
+    color: green;
+}
+.allusat2{
+    padding: 8px 10px;
+}
+.allusat2:hover{
+    background-color: white;
+    color: green;
+}
+.footer3{
+    color: white;
+    padding-top: 20px;
+}
+.footer3 h5{
+    padding-bottom: 5px;
+}
+.footer3 p{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.footer3 a{
+    color: white;
+    text-decoration: none;
+}
+.footer3 a:hover{
+    color: rgb(136, 207, 240);
+}
+.footer4{
+    color: white;
+    padding-top: 15px;
+}
+.customer{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.customer-img{
+    overflow: hidden;
+}
+.customer-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+}
+.customer-img p{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.footer-all2{
+    background-color: rgb(10, 77, 10);
+}
+.footerall2{
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+}
+.footer-bottom p{
+    padding-top: 7px;
+    font-size: 14px;
+}
+.footer-bottom a{
+    color: rgb(59, 181, 238);
+    text-decoration: none;
+}
+
